@@ -30,7 +30,7 @@ const fareDoubler = function (fare) {
 }
 fareDoubler(fare);
 
-const fareTripler = function (fare) {
+function fareTripler (fare) {
    const fn = createFareMultiplier(fare / (5/3));
 
    return fn();
